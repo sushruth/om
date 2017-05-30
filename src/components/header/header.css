@@ -1,0 +1,38 @@
+.company {
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.tag {
+	font-size:0.7em;
+	color:#7f7f7f;
+}
+
+.nameAndTag {
+	padding-left:10px;
+}
+
+.header {
+	padding:50px 0;
+}
+
+.info {
+	font-size:0.8em;
+	color:#999;
+}
+
+.icon svg {
+	vertical-align: middle
+}
+
+.bar {
+	color:#eee;
+}
+
+.info > div {
+	padding:0 0 0 10px;
+}
+
+.icon {
+	padding-left:10px;
+}

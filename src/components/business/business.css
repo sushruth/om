@@ -1,0 +1,60 @@
+.business, .business p {
+	color:#fff;
+	padding-bottom:50px;
+}
+
+.businessTitle {
+	font-weight: 500;
+	font-size:2em;
+	text-align: center;
+	padding:40px 0;
+	max-width:700px;
+	margin:auto;
+	border-bottom:1px solid #516cb6;
+}
+
+.businessImage {
+	text-align: right;
+	padding:50px 100px;
+	border-right:1px solid #516cb6;
+}
+
+.businessIcons {
+	align-self:center;
+	padding:0 100px;
+	font-weight: 900;
+	font-size:1.3em;
+}
+
+.businessIcons > div {
+	text-align: center;
+	align-content: center;
+	vertical-align: middle;
+}
+
+.round {
+	width:100px;
+	margin:20px;
+	height:100px;
+	border-radius: 100px;
+	background:#fff;
+	color:#0d2a94;
+}
+
+.graphic {
+	position:relative;
+}
+
+.businessBar {
+	width:1000px;
+	border-bottom:1px solid #516cb6;
+	margin:auto;
+}
+
+.businessBottom p {
+	padding:30px;
+}
+
+.businessBottom p:first-child {
+	border-right: 1px solid #516cb6;
+}

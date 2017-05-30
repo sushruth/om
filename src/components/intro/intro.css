@@ -1,0 +1,19 @@
+.left {
+	padding:0 100px 0 100px;
+	border-right: 1px solid #ddd;
+}
+
+.right {
+	padding:0 100px;
+	align-self: center;
+}
+
+.intro {
+	padding:50px 0;
+}
+
+.assetHeading {
+	font-weight: 500;
+	font-size:1.45em;
+	padding-bottom: 20px;
+}

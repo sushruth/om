@@ -1,0 +1,45 @@
+.tiles > div {
+	width:50%;
+	padding:30px;
+	align-self: flex-start
+}
+
+.stockMarketImage {
+	align-self: center;
+}
+
+.leftIcon {
+	padding:60px 100px 60px 0;
+}
+
+.stockMarket {
+	padding-top:70px;
+}
+
+.title {
+	text-transform: uppercase;
+	padding-bottom: 15px;
+	font-size: 0.9em;
+	font-weight: 500;
+}
+
+.education {
+	border-right:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+
+.tradingRoom {
+	border-left:1px solid #eee;
+	border-top:1px solid #eee;
+	margin-left:-2px;
+	margin-top:-1px;
+}
+
+.education > .title, .portfolio > .title {
+	text-align: right;
+}
+
+p.body {
+	font-weight: 200;
+	color:#989898;
+}

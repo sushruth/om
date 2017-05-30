@@ -1,0 +1,39 @@
+.insuranceHeading {
+	font-weight: 700;
+	font-size: 1.5em;
+	padding-bottom:20px;
+	color:#3eb4f7;
+}
+
+.insurance {
+	padding:50px 0;
+}
+
+.leftInsurance {
+	padding-right:50px;
+	border-right:1px solid #eee;
+	flex-grow: 0;
+}
+
+.leftInsurance {
+	max-width:80%;
+}
+
+.rightInsurance {
+	font-size: 0.65em;
+}
+
+.insuranceIcon, .insuranceText {
+	word-wrap: none;
+	padding:18px;
+	vertical-align: middle;
+}
+
+.insuranceIcon {
+	padding-right:0;
+	padding-left:40px;
+}
+
+.insuranceIcon > img {
+	width:16px;
+}
