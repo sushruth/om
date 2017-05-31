@@ -4,7 +4,7 @@
 }
 
 .shaded {
-	background:#f7f7f7;
+	background:#eee;
 }
 
 .afterMarket {
@@ -17,7 +17,7 @@
 
 .loan {
 	background: transparent url('./images/loan.png') no-repeat left center;
-	background-size: 200px;
+	background-size: 150px;
 }
 
 #map {

@@ -20,7 +20,7 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtz8CNM7lR7nlGhbmJ6eoDXH60k2b3VIo&extension=.js"></script> 
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAtz8CNM7lR7nlGhbmJ6eoDXH60k2b3VIo&extension=.js"></script>
 	<script src="https://cdn.mapkit.io/v1/infobox.js"></script>
 	<link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
 	<link href="https://cdn.mapkit.io/v1/infobox.css" rel="stylesheet">
@@ -139,8 +139,8 @@
 
 		function init() {
 			var mapOptions = {
-				center: new google.maps.LatLng(12.982228196844314, 77.58273020007323),
-				zoom: 16,
+				center: new google.maps.LatLng(13.00598776338629, 77.5681175253601),
+				zoom: 18,
 				gestureHandling: 'auto',
 				fullscreenControl: false,
 				zoomControl: true,
@@ -153,14 +153,14 @@
 				scrollwheel: true,
 				streetViewControl: true,
 				draggable: true,
-				clickableIcons: false,
+				clickableIcons: true,
 				mapTypeId: google.maps.MapTypeId.ROADMAP,
 				styles: [{ "featureType": "administrative", "elementType": "all", "stylers": [{ "saturation": "-100" }] }, { "featureType": "administrative.country", "elementType": "all", "stylers": [{ "visibility": "on" }, { "hue": "#ff0000" }] }, { "featureType": "administrative.country", "elementType": "labels", "stylers": [{ "visibility": "off" }] }, { "featureType": "administrative.province", "elementType": "all", "stylers": [{ "visibility": "off" }] }, { "featureType": "landscape", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": 65 }, { "visibility": "on" }] }, { "featureType": "poi", "elementType": "all", "stylers": [{ "saturation": -100 }, { "lightness": "50" }, { "visibility": "simplified" }] }, { "featureType": "road", "elementType": "all", "stylers": [{ "saturation": "-100" }] }, { "featureType": "road.highway", "elementType": "all", "stylers": [{ "visibility": "simplified" }] }, { "featureType": "road.arterial", "elementType": "all", "stylers": [{ "lightness": "30" }] }, { "featureType": "road.local", "elementType": "all", "stylers": [{ "lightness": "40" }] }, { "featureType": "transit", "elementType": "all", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "hue": "#ffff00" }, { "lightness": -25 }, { "saturation": -97 }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "lightness": -25 }, { "saturation": -100 }] }]
 			}
 			var mapElement = document.getElementById('map');
 			var map = new google.maps.Map(mapElement, mapOptions);
 			var locations = [
-				{ "title": "Vidhana Soudha", "address": "Vidhana Soudha, Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001, India", "desc": "", "tel": "", "int_tel": "", "email": "", "web": "", "web_formatted": "", "open": "", "time": "", "lat": 12.9796309, "lng": 77.59068649999994, "vicinity": "Vidhana Soudha, Ambedkar Veedhi, Sampangi Rama Nagar, Bengaluru, Karnataka 560001, India", "open_hours": "", "marker": { "url": "https://maps.gstatic.com/mapfiles/api-3/images/spotlight-poi_hdpi.png", "scaledSize": { "width": 25, "height": 42, "f": "px", "b": "px" }, "origin": { "x": 0, "y": 0 }, "anchor": { "x": 12, "y": 42 } }, "iw": { "address": true, "desc": true, "email": true, "enable": true, "int_tel": true, "open": true, "open_hours": true, "photo": true, "tel": true, "title": true, "web": true } }
+				{ "title": "Options Mantra", "address": "HVV Plaza #76, 2nd Floor, \"B\" Wing, 4th Main, 15th Cross, Opposite Himanshu School & Karnataka Bank, Bengaluru, Malleshwaram West, Karnataka 560055, India", "desc": "", "tel": "", "int_tel": "", "email": "", "web": "", "web_formatted": "", "open": "", "time": "", "lat": 13.0058835, "lng": 77.56808219999993, "vicinity": "HVV Plaza #76, 2nd Floor, \"B\" Wing, 4th Main, 15th Cross, Opposite Himanshu School & Karnataka Bank, Bengaluru, Malleshwaram West, Karnataka 560055, India", "open_hours": [], "marker": { "fillColor": "#2196F3", "fillOpacity": 1, "strokeWeight": 0, "scale": 1.5, "path": "M10.2,7.4c-6,0-10.9,4.9-10.9,10.9c0,6,10.9,18.4,10.9,18.4s10.9-12.3,10.9-18.4C21.2,12.2,16.3,7.4,10.2,7.4z M10.2,22.9c-2.6,0-4.6-2.1-4.6-4.6s2.1-4.6,4.6-4.6s4.6,2.1,4.6,4.6S12.8,22.9,10.2,22.9z", "anchor": { "x": 10, "y": 30 }, "origin": { "x": 0, "y": 0 }, "style": 1 }, "iw": { "address": true, "desc": true, "email": true, "enable": true, "int_tel": true, "open": true, "open_hours": true, "photo": true, "tel": true, "title": true, "web": true } }
 			];
 			for (i = 0; i < locations.length; i++) {
 				marker = new google.maps.Marker({
@@ -191,7 +191,7 @@
 
 	</script>
 
-	<title>React App</title>
+	<title>Options Mantra</title>
 </head>
 
 <body>
