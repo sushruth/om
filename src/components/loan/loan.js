@@ -10,24 +10,24 @@ export class Loan extends Component {
 					<div className="leftInsurance">
 						<div className="insuranceHeading">Loans</div>
 						<p className="body">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in blandit enim. Pellentesque elementum dolor ut tellus vulputate imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse placerat mi quis elit mollis maximus. Curabitur dolor risus, mollis sed sem nec, suscipit maximus dolor. Pellentesque viverra odio dui, id sodales tortor pharetra a. Nam euismod lorem suscipit, aliquet tortor eget, vehicula nunc. Pellentesque pharetra nisl sit amet sollicitudin lacinia. 
+							In finance, a loan is the lending of money from one individual, organization or entity to another individual, organization or entity. A loan is a debt provided by an entity (organization or individual) to another entity at an interest rate, and evidenced by a promissory note which specifies, among other things, the principal amount of money borrowed, the interest rate the lender is charging, and date of repayment. A loan entails the reallocation of the subject asset(s) for a period of time, between the lender and the borrower.
 						</p>
 					</div>
-					<div className="rightInsurance flexParent col start">
+					<div className="rightLoan flexParent col start">
 						<div className="flexParent life">
-							<div className="insuranceIcon">
+							<div className="loanIcon">
 								<img src={require('./../../images/personal-loan.png')} alt=""/>
 							</div>
 							<div className="insuranceText">Personal Loans</div>
 						</div>
 						<div className="flexParent health">
-							<div className="insuranceIcon">
+							<div className="loanIcon">
 								<img src={require('./../../images/home-loan.png')} alt=""/>							
 							</div>
-							<div className="insuranceText">Home Loans</div>
+							<div className="insuranceText">Housing Loans</div>
 						</div>
 						<div className="flexParent motor">
-							<div className="insuranceIcon">
+							<div className="loanIcon">
 								<img src={require('./../../images/mortgage-loan.png')} alt=""/>							
 							</div>
 							<div className="insuranceText">Mortgage Loans</div>

@@ -8,7 +8,7 @@ export class Insurance extends Component {
 				<div className="leftInsurance">
 					<div className="insuranceHeading">Insurance</div>
 					<p className="body">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed in blandit enim. Pellentesque elementum dolor ut tellus vulputate imperdiet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse placerat mi quis elit mollis maximus. Curabitur dolor risus, mollis sed sem nec, suscipit maximus dolor. Pellentesque viverra odio dui, id sodales tortor pharetra a. Nam euismod lorem suscipit, aliquet tortor eget, vehicula nunc. Pellentesque pharetra nisl sit amet sollicitudin lacinia. 
+						Enriching the lives of people who trust in you. Life is Uncertain and that uncertainty involves huge risks. The only way to get rid of your risks is to get INSURED by transferring your risks. Insure your Future…. Today! To make Good the Loss! Insurance may be described as a social device to reduce or eliminate risk of loss to life and property. Insurance turn accumulated capital into productive investments. Insurance enables to mitigate loss, Financial stability and promotes trade and commerce activities those results into economic growth And development.
 					</p>
 				</div>
 				<div className="rightInsurance flexParent col start">

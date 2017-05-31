@@ -10,33 +10,31 @@ export class StockMarket extends Component {
 					<div className="education">
 						<div className="title">INTRADAY TRADING STRATEGIES</div>
 						<p className="body textRight">
-							Curabitur consequat libero justo, vel facilisis nisi malesuada vitae. Suspendisse in magna tempor, convallis velit vitae, imperdiet massa. Quisque eget elementum lacus. Proin eleifend condimentum quam, in placerat dui commodo vitae. Aenean lacinia erat ut magna sodales, sit amet fermentum velit porta
+							Successful strategies in Intraday will be revealed which makes trading more Easy. Get trained to be a professional trader. Experience the cutting edge online trading platform to learn and make the best use of it.
 						</p>
 					</div>
 					<div className="demat">
 						<div className="title">OPTIONS TRADING COURSE</div>
 						<p className="body">
-							Maecenas neque diam, fermentum vel lacus nec, pulvinar sodales magna. Phasellus nunc nisi, scelerisque eu mi in, viverra semper tortor. Nulla euismod eros at augue efficitur suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+							95% of the traders in derivative market today in India don’t have knowledge about Greeks. Learn Greeks in an innovative way and trade like a professional in derivative segment. Greeks are very important to derive strategies in Options.
 						</p>
 					</div>
 					<div className="portfolio">
 						<div className="title">TECHNICAL ANALYSIS</div>
 						<p className="body textRight">
-							Curabitur consequat libero justo, vel facilisis nisi malesuada vitae. Suspendisse in magna tempor, convallis velit vitae, imperdiet massa. Quisque eget elementum lacus. Proin eleifend condimentum quam, in placerat dui commodo vitae. Aenean lacinia erat ut magna sodales, sit amet fermentum velit porta
+							Usage of Japanese candlesticks. Chart analysis and pattern based training covered here.
 						</p>
 					</div>
 					<div className="tradingRoom">
 						<div className="title">FUNDAMENTAL ANALYSIS</div>
 						<p className="body">
-							Maecenas neque diam, fermentum vel lacus nec, pulvinar sodales magna. Phasellus nunc nisi, scelerisque eu mi in, viverra semper tortor. Nulla euismod eros at augue efficitur suscipit. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+							Basic knowledge on stock market, Long term stock selection, All types of financial ratio and much more.
 						</p>
 					</div>
 					<div className="flexParent">
-						<ul className="listItems">
-							<li>Live trading room facility available.</li>
-							<li>We provide stock Market Education, Demat Account Opening, Portfolio <br/>Management and Trading room facility.</li>
-							<li>First of its kind in India.</li>
-						</ul>
+						<p className="subHeading">
+							Live trading room facility available, first of its kind in india. We provide Stock market education, Demat account opening, Portfolio management and much more.							
+						</p>
 					</div>
 				</div>
 			</div>

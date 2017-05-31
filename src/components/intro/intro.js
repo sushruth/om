@@ -8,7 +8,7 @@ export class Intro extends Component {
 				<div className="left flexParent col shrinker start">
 					<div className="assetHeading">Come, Let's Grow!</div>
 					<p className="assetBody">
-						One stop destination for all financial solutions as in stock market, Loans, Insurance, Tax, Planning and Other Services. Earn while you learn. Live trading room facility available, First of its kind in India.
+						One stop destination for all financial solutions. Stock market, Loans, Insurance, Tax, Planning and Other Services. Earn while you learn. Live trading room facility available, First of its kind in India.
 					</p>
 				</div>
 				<div className="right">

@@ -16,7 +16,7 @@ export class Header extends Component {
 				</div>
 				<div className="filler"> </div>
 				<div className="flexParent info">
-					<div className="email">info@optionsmantra.com</div>
+					<div className="email">optionsmantra112@yahoo.com</div>
 					<div className="bar">|</div>
 					<div className="phone flexParent center">
 						<a className="number" href="tel:+918041744399">080 - 4174 4399</a>
