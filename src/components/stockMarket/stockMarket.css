@@ -43,3 +43,13 @@ p.body {
 	font-weight: 200;
 	color:#989898;
 }
+
+.listItems{flex-grow: 1;}
+
+.listItems>li{
+	padding: 10px;
+	list-style-type: circle;
+	color: #333;
+	text-transform: uppercase;
+	font-size: .9em;
+}
